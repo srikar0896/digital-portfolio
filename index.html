@@ -1,3 +1,4 @@
+
 <html lang="en">
   <head>
 
@@ -146,9 +147,8 @@
 
             <div class="row" id="portfolio-tabs">
                 <ul class="portfolio">
-                    <li ng-class="{'active':activeTab == 'skills'}" ng-click="activeTab = 'skills'" class="filter active">Skills</li>
-                    <li ng-class="{'active':activeTab == 'courses'}" ng-click="activeTab = 'courses'" class="filter">Courses</li>
-                    <li ng-class="{'active':activeTab == 'intern'}" ng-click="activeTab = 'intern'" class="filter">InternShips</li>
+                    <li class="filter active" ng-class="{'active':activeTab == 'skills'}" ng-click="activeTab = 'skills'">Skills</li>
+                    <li ng-class="{'active':activeTab == 'intern'}" ng-click="activeTab = 'intern'" class="filter">Experience</li>
                     <li ng-class="{'active':activeTab == 'certs'}" ng-click="activeTab = 'certs'" class="filter">Other</li>
                 </ul>
 
@@ -174,6 +174,7 @@
                       <li>Jquery</li>
                       <li>HTML5</li>
                       <li>CSS3</li>
+                      <li>Bootstrap</li>
                     </ul>
                   </div>
 
@@ -183,61 +184,30 @@
                 </div>
             </div>
 
-            <div class="portfolio-inner" ng-if="activeTab == 'courses'">
-              <section id="services" class="services-section" style="padding-left:35%">
-                  <div class="container">
-                      <div class="row">
-
-                      <div class="col-md-4 col-sm-6">
-                  <div class="services-detail" style="padding-bottom:40px;padding-top:20px">
-                    <h3>Courses Enrolled</h3>
-                    <hr>
-                    <ul>
-                      <li>C/C++.</li>
-                      <li>Data Structures.</li>
-                      <li>Algorithms.</li>
-                      <li>Java.</li>
-                      <li>Modeling & Simulation.</li>
-                      <li>Linear and Non-Linear Optimization.</li>
-                      <li>Data Mining And Predictive Modeling.</li>
-                      <li>Big Data Concepts.</li>
-                      <li>Inferential Statistics.</li>
-                      <li>Natural Language Processing.</li>
-                      <li>Buisiness Analytics.</li>
-                    </ul>
-                  </div>
-
-                      </div>
-                  </div>
-              </section>
-                </div>
-            </div>
             <!-- Certs TAb -->
 
             <div class="portfolio-inner"  ng-if="activeTab == 'certs'">
               <section id="services" class="services-section" style="padding-left:35%">
                   <div class="container">
                       <div class="row">
-
-                      <div class="col-md-4 col-sm-6">
-                  <div class="services-detail" style="padding-bottom:40px;padding-top:20px">
-                    <h3>Certfications</h3>
-                    <hr>
-                    <ul>
-                      <li>Principles Of Machine Learning - Microsoft</li>
-                      <li>Essentials for DataScience - Microsoft</li>
-                    </ul>
-                    <h3>Workshops</h3>
-                    <hr>
-                    <ul>
-                      <li>Basics of Android development.</li>
-                      <li>Python for Datascience - Introductory to Python.</li>
-                    </ul>
-
-                  </div>
-
+                        <div class="col-md-4 col-sm-6">
+                        <div class="services-detail" style="padding-bottom:40px;padding-top:20px">
+                          <h3>Workshops</h3>
+                          <hr>
+                          <ul>
+                            <li>Web Developmenet Workshop - CSI</li>
+                            <li>Basics of Android development.</li>
+                            <li>Python for Datascience - Introductory to Python.</li>
+                          </ul>
+                          <h3>Certfications</h3>
+                          <hr>
+                          <ul>
+                            <li>Principles Of Machine Learning - Microsoft</li>
+                            <li>Essentials for DataScience - Microsoft</li>
+                          </ul>
+                        </div>
                       </div>
-                  </div>
+                    </div>
               </section>
                 </div>
             </div>
@@ -249,12 +219,14 @@
 
                       <div class="col-md-4 col-sm-6">
                   <div class="services-detail" style="padding-bottom:40px;padding-top:20px">
-                    <h3>Internships</h3>
+                    <h3>Experience</h3>
                     <hr>
                     <ul>
-                      <li>Rhibus.inc(2016 Aug-2016 Nov)</li>
-                      Skills used - HTML,CSS,JS,Angular JS,API's,MVC.
                       <li>Plug(2016 Dec-2017 Aug)</li>
+                      <li>247 Websites (Oct 2015)</li>
+                      <li>Contributed in some open source projects.</li>
+                      Skills used - HTML,CSS,JS,Angular JS,API's,MVC.
+
                     </ul>
                   </div>
 
