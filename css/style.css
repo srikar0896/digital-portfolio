@@ -706,7 +706,9 @@ ul.portfolio li.active {
   width: 65%;
   text-align: left;
 }
-
+.mfp-content{
+    margin-top: 20px;
+}
 .statistics-content > h5 {
   font-size: 34px;
   margin-top: 0;
